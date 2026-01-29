@@ -8,6 +8,8 @@ A lightweight, zero-dependency VTT and ASS (Advanced Substation Alpha) subtitle 
 - **Format Support**: Handles both standard WebVTT and complex ASS/SSA formats.
 - **Styling**: Supports ASS styles including fonts, colors (with alpha), outlines, shadows, and margins.
 - **Positioning**: Supports ASS alignment (numpad mapping 1-9) and absolute positioning (`\pos` overrides).
+- **Animations**: Supports advanced ASS `\fad` (fade), `\move` (movement), and `\frx/y/z` (3D rotation).
+- **Styling Overrides**: Supports `\blur`, `\bord` (border), `\shad` (shadow), `\fs` (font size), `\fn` (font name).
 - **Zero Dependencies**: Pure vanilla JavaScript.
 - **Responsive**: Automatically scales subtitles based on video container resolution.
 
