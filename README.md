@@ -1,3 +1,4 @@
+npm page: https://www.npmjs.com/package/web-subtitle-renderer
 # Web Subtitle Renderer
 
 A lightweight, zero-dependency VTT and ASS (Advanced Substation Alpha) subtitle renderer for standard HTML5 `<video>` elements.
