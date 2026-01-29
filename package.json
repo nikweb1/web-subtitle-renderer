@@ -1,6 +1,6 @@
 {
     "name": "web-subtitle-renderer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A lightweight, zero-dependency VTT and ASS subtitle renderer for web video players.",
     "main": "index.js",
     "type": "module",
@@ -28,3 +28,4 @@
         "url": "https://github.com/Lakunake/web-subtitle-renderer"
     }
 }
+
