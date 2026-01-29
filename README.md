@@ -7,11 +7,20 @@ A lightweight, zero-dependency VTT and ASS (Advanced Substation Alpha) subtitle 
 
 - **Format Support**: Handles both standard WebVTT and complex ASS/SSA formats.
 - **Styling**: Supports ASS styles including fonts, colors (with alpha), outlines, shadows, and margins.
-- **Positioning**: Supports ASS alignment (numpad mapping 1-9) and absolute positioning (`\pos` overrides).
-- **Animations**: Supports advanced ASS `\fad` (fade), `\move` (movement), and `\frx/y/z` (3D rotation).
-- **Styling Overrides**: Supports `\blur`, `\bord` (border), `\shad` (shadow), `\fs` (font size), `\fn` (font name).
-- **Zero Dependencies**: Pure vanilla JavaScript.
-- **Responsive**: Automatically scales subtitles based on video container resolution.
+- **Smart Resizing**: Automatically calculates actual video content dimensions to handle letterboxing/pillarboxing correctly.
+- **Advanced ASS Support**:
+    - **Positioning**: Alignment (1-9) and Absolute Positioning (`\pos`).
+    - **Animations**: `\fad` (Fade), `\move` (Movement).
+    - **3D Rotation**: `\frx`, `\fry`, `\frz`.
+    - **Karaoke**: `\k` (Basic timing/highlighting framework).
+    - **Styling Overrides**: `\blur`, `\bord`, `\shad`, `\fs`, `\fn`, `\c` (Color).
+- **Zero Dependencies**: Pure vanilla JavaScript module.
+
+## Smart Video Scaling
+
+Unlike simple overlays that stretch to fit the `div`, this renderer calculates the **actual video content aspect ratio** vs the **container aspect ratio**. 
+
+It automatically resizes and positions the overlay to match the video content exactly, preventing subtitles from floating in black bars or being misaligned when letterboxing occurs.
 
 ## Installation
 
