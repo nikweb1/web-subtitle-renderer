@@ -1,6 +1,6 @@
 {
     "name": "web-subtitle-renderer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight, zero-dependency VTT and ASS subtitle renderer for web video players.",
     "main": "index.js",
     "type": "module",
@@ -21,10 +21,10 @@
         "web-video",
         "html5-video"
     ],
-    "author": "Antigravity AI (and Sync-Player Contributors)",
+    "author": "Lakunake",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ieozd/Sync-Player"
+        "url": "https://github.com/Lakunake/web-subtitle-renderer"
     }
 }
